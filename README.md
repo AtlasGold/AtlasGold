@@ -11,19 +11,22 @@
 <sub>
 os bancos guardam memórias<br>
 de tudo que já passou.<br><br>
-um dia tudo se apaga,<br>
-até o que ficou.<br><br>
-só sigo.
+o que fiz será esquecido,<br>
+assim como o que restou.<br><br>
+apenas sigo.
 </sub>
 
 <br><br>
 
-<kbd>postgres</kbd> · <kbd>linux</kbd> · <kbd>dba</kbd>
+<kbd>postgres</kbd> · <kbd>linux</kbd> · <kbd>silêncio</kbd>
 
 </div>
 
 <!--
-duas estações:
-dia: O sutil acontece
-noite: Quando tudo permanece
+Tudo permanece
+Mas ainda muda
+Bem levemente
+De dia e de noite
+O sútil acontece
+Quando tudo permanece
 -->
