@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>profile preview</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f1e7;
+      --fg: #32373d;
+      --muted: #606a73;
+      --card: #ffffff70;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #070a0f;
+        --fg: #c9d1d9;
+        --muted: #9aa0a6;
+        --card: #00000030;
+      }
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    main {
+      width: min(900px, 92vw);
+      padding: 28px;
+      text-align: center;
+      border-radius: 24px;
+      background: var(--card);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 18px;
+      box-shadow: 0 22px 80px rgba(0,0,0,.22);
+    }
+
+    p {
+      line-height: 1.8;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    kbd {
+      padding: .25rem .45rem;
+      border-radius: .35rem;
+      border: 1px solid currentColor;
+      opacity: .75;
+      font-size: .72rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/leaves-night.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/leaves-day.svg">
+      <img src="./assets/leaves-night.svg" alt="folhas em pixel art caindo ao vento">
+    </picture>
+
+    <p>
+      os bancos guardam memórias<br>
+      de tudo que já passou.<br><br>
+      um dia tudo se apaga,<br>
+      até o que ficou.<br><br>
+      só sigo.
+    </p>
+
+    <p>
+      <kbd>postgres</kbd>
+      <kbd>linux</kbd>
+      <kbd>dba</kbd>
+    </p>
+  </main>
+</body>
+</html>
